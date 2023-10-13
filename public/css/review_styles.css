@@ -52,6 +52,16 @@ h1, h2, h3, h4 {
     text-align: center;  
 }
 
+.myTitle {
+    position: relative;
+}
+
+.top_right_corner{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
 .myContainer {
     max-width: 120rem; /* If screensize has those px available it will use that width, otherwise it will use 100% of the available width (because of div's default) */
     margin: 0 auto;
@@ -185,6 +195,7 @@ h1, h2, h3, h4 {
     min-height: 6rem;
     max-height: 6rem;
     max-width: 20rem;
+    width: 100%;
     margin: 1rem 0rem 1rem 0rem;
     padding: 0rem;
 }

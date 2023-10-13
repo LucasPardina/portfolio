@@ -56,6 +56,16 @@ h1, h2, h3, h4 {
 }
 
 /* Titles */
+.myTitle {
+    position: relative;
+}
+
+.top_right_corner{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
 .myTitle span {                   
     font-size: 2rem;
 }
@@ -310,8 +320,8 @@ h1, h2, h3, h4 {
 
 /* Add styles for the footer */
 .footer {
-    background-color: var(--primary_color); /* Match the footer background with the navigation background */
-    color: var(--white);
+   /*  background-color: var(--primary_color); /* Match the footer background with the navigation background */
+    /*color: var(--white); */
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
