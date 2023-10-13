@@ -2,8 +2,6 @@ import { getIsLoggedIn, setIsLoggedIn } from './common';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, addDoc } from 'firebase/firestore';
 
-alert(Hi!);
-
 const firebaseConfig = {
   apiKey: "AIzaSyDTk6YSfVUT3oDM80hof-S_c1oJZM2NFHg",
   authDomain: "reviews2-6db94.firebaseapp.com",
@@ -12,6 +10,8 @@ const firebaseConfig = {
   messagingSenderId: "211637723531",
   appId: "1:211637723531:web:2490a88fc8578d4fb04f8e"
 };
+
+console.log("Hi!");
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
