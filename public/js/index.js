@@ -2,6 +2,8 @@ import { getIsLoggedIn, setIsLoggedIn } from './common';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, addDoc } from 'firebase/firestore';
 
+alert(Hi!);
+
 const firebaseConfig = {
   apiKey: "AIzaSyDTk6YSfVUT3oDM80hof-S_c1oJZM2NFHg",
   authDomain: "reviews2-6db94.firebaseapp.com",
