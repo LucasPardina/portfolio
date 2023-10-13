@@ -19,14 +19,14 @@
     <!-- Including too many external fonts will increase the web page's loading time -->
 </head>
 <body>
-    <header>                                <!-- You may only use one header area and one main content area. Using multiple sections is fine-->
-        <h1 class="myTitle">Lucas Pardina <span>Trainee</span></h1>           <!-- You may declare only one H1 title-->
+    <header class="myTitle">                                <!-- You may only use one header area and one main content area. Using multiple sections is fine-->
+        <h1>Lucas Pardina <span>Trainee</span></h1>           <!-- You may declare only one H1 title-->
     </header>
 
     <div class="nav-bg">
         <nav class="myContainer Principal_Nav">                                   <!--Navigation area-->
-            <a href="myProyects.html">Mis Proyectos</a> <!--anchor elements require the href="link" atribute-->
-            <a href="sobreMi.html">Sobre Mi</a>            <!-- href="#" means I don´t have the link yet-->
+            <a href="myProjects.html">Mis Proyectos</a> <!--anchor elements require the href="link" atribute-->
+            <a href="aboutMe.html">Sobre Mi</a>            <!-- href="#" means I don´t have the link yet-->
             <a href="reviews.html">Reseñas</a>
             <a href="contactMe.html">Contacto</a>
         </nav>
@@ -161,7 +161,7 @@
     <footer class="footer">
         <p>All rights reseved</p>
     </footer><!-- .footer -->
-    <script type="module" src="js/firebaseSetup.js"></script>
-    <script type="module" src="js/firebaseSaveReview.js"></script>
+    <script src="js/common.bundle.js"></script>
+    <script src="js/index.bundle.js"></script>
 </body>
 </html>

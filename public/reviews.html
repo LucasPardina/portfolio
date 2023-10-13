@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="css/normalize.css"> <!-- The normalize library will help the website to look the desired way regardless of the user's web browser -->
     <link rel="preload" href="css/review_styles.css" as="style" /> <!-- Use this line to load stylesheet faster => Increase web page performance -->
     <link href="css/review_styles.css" rel="stylesheet"/> <!-- rel = relation with current document-->
+    <!-- Preload js script-->
+    <link rel="preload" href="js/reviews.bundle.js" as="script">
     <!-- Add external fonts from google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,9 @@
 <body>
     <header class="myTitle">
         <h1>Mis Reseñas</h1>
+        <div class="flex top_right_corner">
+            <input class="w-small-100 button no_margin" id="authenticate" type="submit" value="Admin login"/>
+        </div>
     </header>
     <div class="nav-bg">
         <nav class="myContainer Principal_Nav">                           
@@ -32,7 +37,7 @@
     <footer class="footer">
         <p>All rights reseved</p>
     </footer><!-- .footer -->
-    <script type="module" src="js/firebaseSetup.js"></script>
-    <script type="module" src="js/script.js"></script>
+    <script src="js/common.bundle.js"></script>
+    <script src="js/reviews.bundle.js"></script>
 </body>
 </html>
