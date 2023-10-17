@@ -1,5 +1,5 @@
 [build]
-  command = "npm install firebase && npm run build"  # Your build command
+  command = "npm run build"  # Your build command
   publish = "public"  # Directory to publish (modify this based on your project)
 
 [[redirects]]
