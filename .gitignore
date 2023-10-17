@@ -1,3 +1,4 @@
 node_modules
 public/js/index.bundle.js
 public/js/reviews.bundle.js
+public/js/common.bundle.js
