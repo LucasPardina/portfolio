@@ -1,6 +1,5 @@
 [build]
-  node_version = "14"
-  command = "npm install firebase && npm install && npm run build"  # Your build command
+  command = "npm run build"  # Your build command
   publish = "public"  # Directory to publish (modify this based on your project)
 
 [[redirects]]
